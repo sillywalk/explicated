@@ -24,15 +24,14 @@ sass:
   style:        compressed
 
 # Gems
-plugins:
-  - jekyll-feed
-  - jekyll-paginate
-  - jekyll-seo-tag
-  # - jemoji #Uncomment this to allow emoji in your post
+remote_theme: chesterhow/tale
 
-# Permalinks
-permalink:      /:year-:month-:day/:title
-paginate:       5
+permalink:    /:year-:month-:day/:title
+paginate:     5
+
+plugins:
+  - jekyll-paginate
+  - jekyll-remote-theme
 
 # Excludes
 exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
