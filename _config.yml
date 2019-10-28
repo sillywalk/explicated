@@ -19,7 +19,7 @@ sass:
 remote_theme: chesterhow/tale
 
 permalink:    /:year-:month-:day/:title
-paginate:     10
+paginate:     20
 
 plugins:
   - jekyll-paginate
@@ -29,4 +29,4 @@ plugins:
 exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
 
 # Disqus (Set to your disqus id)
-disqus:         jekyll-tale
+# disqus:         jekyll-tale
