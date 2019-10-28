@@ -1,7 +1,7 @@
 # Site settings
 title:          Explicated
 description:    "A brief summary of current research in SE and ML."
-# baseurl:        "/tale"
+baseurl:        "/explicated"
 url:            "https://chesterhow.github.io"
 
 
